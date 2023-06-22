@@ -2901,9 +2901,14 @@
             spaceBetween: 0,
             autoHeight: true,
             speed: 800,
+            allowTouchMove: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true
+            },
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true
             },
             navigation: {
                 prevEl: ".swiper-button-prev",
