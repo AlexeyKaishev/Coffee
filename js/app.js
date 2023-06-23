@@ -2895,22 +2895,6 @@
     function initSliders() {
         if (document.querySelector(".items-feedback__slider")) new core(".items-feedback__slider", {
             modules: [ Navigation ],
-            observer: true,
-            observeParents: true,
-            slidesPerView: 1,
-            spaceBetween: 10,
-            autoHeight: true,
-            speed: 800,
-            allowTouchMove: false,
-            simulateTouch: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true
-            },
-            scrollbar: {
-                el: ".swiper-scrollbar",
-                draggable: true
-            },
             navigation: {
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next"
