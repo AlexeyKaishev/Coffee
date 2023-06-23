@@ -2898,10 +2898,11 @@
             observer: true,
             observeParents: true,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 10,
             autoHeight: true,
             speed: 800,
             allowTouchMove: true,
+            simulateTouch: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true
@@ -3022,6 +3023,10 @@
         console.log(windowScroll);
         if (windowScroll > headerHeight) header.style.backgroundColor = "#603809"; else header.style.backgroundColor = "transparent";
     }));
+    new Swiper(".slidertest__slider", {
+        direction: "vertical",
+        loop: true
+    });
     window["FLS"] = true;
     isWebp();
     menuInit();
