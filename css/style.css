@@ -1026,19 +1026,6 @@ a {
   padding: 22px 24px;
 }
 
-/*===============SLIDERTEST=======================*/
-
-.slidertest {
-  margin: 50px 0;
-  background-color: #555;
-}
-
-.slidertest__slider {
-  width: 600px;
-  height: 300px;
-  background-color: #333;
-}
-
 @media (min-width: 47.99875em) {
   .body-coffee {
     max-width: 507px;

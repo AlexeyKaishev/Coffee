@@ -2901,7 +2901,7 @@
             spaceBetween: 10,
             autoHeight: true,
             speed: 800,
-            allowTouchMove: true,
+            allowTouchMove: false,
             simulateTouch: true,
             pagination: {
                 el: ".swiper-pagination",
@@ -3023,10 +3023,6 @@
         console.log(windowScroll);
         if (windowScroll > headerHeight) header.style.backgroundColor = "#603809"; else header.style.backgroundColor = "transparent";
     }));
-    new Swiper(".slidertest__slider", {
-        direction: "vertical",
-        loop: true
-    });
     window["FLS"] = true;
     isWebp();
     menuInit();
